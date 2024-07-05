@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-04T14:52:03.063664" rpa="false" schemaversion="5">
+<suite id="s1" name="Casesatu" source="D:\OFFICE\KELAS ONLINE\otomasi\robotfw\casesatu.robot">
+<test id="s1-t1" name="Proses Login" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-04T14:52:03.243011" level="INFO">Opening browser 'chrome' to base url 'https://joss.jatimprov.go.id/index.php/login'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-04T14:52:03.243011" elapsed="2.200544"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-04T14:52:05.444557" level="INFO">Typing text 'thanos' into text field 'id=pti_user_username'.</msg>
+<arg>id=pti_user_username</arg>
+<arg>thanos</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-04T14:52:05.443555" elapsed="0.088415"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-04T14:52:05.531970" elapsed="2.233030"/>
+</kw>
+<status status="PASS" start="2024-07-04T14:52:03.241974" elapsed="4.524051"/>
+</test>
+<status status="PASS" start="2024-07-04T14:52:03.064645" elapsed="4.703474"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Casesatu">Casesatu</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
